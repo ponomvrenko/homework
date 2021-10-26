@@ -22,7 +22,7 @@ public class SetUtilsTest {
         set2.add(3);
         set2.add(4);
 
-        Set<Integer> result = SetUtils.intersect(set1, set2);
+        Set<Integer> result = SetUtils.union(set1, set2);
 
         assertNotNull(result);
         assertEquals(4, result.size());
